@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+:root{
+    --cor0: #F2EA79;
+    --cor1: #B0E0E6;
+    --cor2: #F20505;
+    --cor3: #4A210A;
+    --cor4: #FFFFFF;
+
+    --fonte-padrao: Arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Poppins', cursive;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    min-width: 100vh;
+
+}
+
+.carrossel {
+    filter: drop-shadow(0px 0px 10px #000);
+    overflow: auto;
+    max-width: 1700px;
+    min-height: 500px;
+  }
+
+  .container {
+    clear: both;
+    display: flex;
+    transition: 0.10s ease-in-out;
+    transform: translateX(0);
+    
+  }
+
+  img {
+    vertical-align: top;
+    width: 2000px;
+    height: 290px;
+    
+    
+  }
+
+.principal img {
+    max-width: 350px;
+    max-height:300px;
+    height: auto;
+    margin-top: -30px;
+}
+/*.container {
+    clear: both;
+    margin-top: 0px;
+    margin: 0px;
+}*/
+/*img {
+    vertical-align: top
+}
+*/
+header{
+    background-color: #FFFFFF;
+    min-height: 100px;
+    border: 5px solid rgb(82, 126, 245);
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 30px;
+   /* padding-right: 10px;*/
+    /*padding-left: 10px;*/
+    box-shadow: 2px 2px 5px rgb(11, 11, 11);
+    
+}
+nav{
+    background-color: #4A210A;
+    /*border-radius: 10px 10px 0px 0px;*/
+    padding: 5px;
+    max-width: 20;
+    box-shadow:  1px 1px 5px rgb(10, 10, 10);
+    font-family: var(--fonte-destaque);
+}
+nav > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin-left: 30px;
+    border-radius: 1px;
+    transition-duration: .5;
+    font-family: var(--fonte-destaque);
+    
+}
+nav > a:hover{
+    background-color: #F20505;
+    
+}
+/*main{
+    background-color: #FFFFFF;
+    padding: 3px;
+    margin: auto;
+    border-radius: 1px 5px;
+    box-shadow:  2px 1px 9px 0px rgb(10, 10, 10);
+}*/
+
+footer{
+    background-color: #F20505;
+    color: antiquewhite;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p{
+    margin: 100px;
+}
