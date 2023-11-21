@@ -12,11 +12,7 @@
     --fonte-destaque: 'Poppins', cursive;
 
 }
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+
 body{
     
     background-color: var(--cor0);
@@ -27,28 +23,10 @@ body{
     min-width: 100vh;
 
 }
-
-.carrossel {
-    filter: drop-shadow(0px 0px 10px #000);
-    overflow: auto;
-    max-width: 1700px;
-    min-height: 500px;
-  }
-
-  .container {
-    clear: both;
-    display: flex;
-    transition: 0.10s ease-in-out;
-    transform: translateX(0);
-    
-  }
-
   img {
     vertical-align: top;
     width: 2000px;
     height: 290px;
-    
-    
   }
 
 .principal img {
@@ -57,15 +35,12 @@ body{
     height: auto;
     margin-top: -30px;
 }
-/*.container {
+.container {
     clear: both;
     margin-top: 0px;
     margin: 0px;
-}*/
-/*img {
-    vertical-align: top
 }
-*/
+
 header{
     background-color: #FFFFFF;
     min-height: 100px;
@@ -74,14 +49,14 @@ header{
     padding: 0px;
     margin: 0px;
     padding-top: 30px;
-   /* padding-right: 10px;*/
-    /*padding-left: 10px;*/
+    padding-right: 10px;
+    padding-left: 10px;
     box-shadow: 2px 2px 5px rgb(11, 11, 11);
     
 }
 nav{
     background-color: #4A210A;
-    /*border-radius: 10px 10px 0px 0px;*/
+    border-radius: 10px 10px 0px 0px;
     padding: 5px;
     max-width: 20;
     box-shadow:  1px 1px 5px rgb(10, 10, 10);
@@ -101,13 +76,13 @@ nav > a:hover{
     background-color: #F20505;
     
 }
-/*main{
+    main{
     background-color: #FFFFFF;
     padding: 3px;
     margin: auto;
     border-radius: 1px 5px;
     box-shadow:  2px 1px 9px 0px rgb(10, 10, 10);
-}*/
+}
 
 footer{
     background-color: #F20505;
